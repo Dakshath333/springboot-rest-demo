@@ -19,3 +19,18 @@
 ```bash
 git clone https://github.com/your-username/springboot-rest-demo.git
 cd springboot-rest-demo
+
+
+2.Build and run the project:
+
+'''bash
+Copy
+Edit
+mvn spring-boot:run
+Open your browser or API client (like Postman) and access:
+
+'''bash
+Copy
+Edit
+http://localhost:8080/hello
+✅ You should see a greeting message returned by the controller.
